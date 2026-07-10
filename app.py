@@ -6,8 +6,8 @@ from fastapi import FastAPI
 app = FastAPI()
 
 # 1. Muat Model dan Scaler
-model = joblib.load("notebooks/model_churn_logistic_regression.pkl")
-scaler = joblib.load("notebooks/scaler.pkl")
+model = joblib.load("models/model_churn_logistic_regression.pkl")
+scaler = joblib.load("models/scaler.pkl")
 
 
 # 2. Skema Data Input Pelanggan
