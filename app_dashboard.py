@@ -1,5 +1,7 @@
 import streamlit as st
 import requests
+import joblib
+import pandas as pd
 
 # 1. Judul & Desain Halaman Dashboard
 st.set_page_config(page_title="Churn Prediction Dashboard", layout="centered")
